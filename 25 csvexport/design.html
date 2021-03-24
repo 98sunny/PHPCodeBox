@@ -1,0 +1,42 @@
+<html>
+
+<head>
+	<style>
+		input[type=text] {
+			width: 100%;
+			padding: 12px 20px;
+			margin: 8px 0;
+			box-sizing: border-box;
+		}
+
+		#button,
+		#browse {
+			background-color: #2fb9f0;
+			/* Green */
+			border: none;
+			color: white;
+			padding: 16px 32px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-size: 16px;
+			margin: 4px 2px;
+			transition-duration: 0.4s;
+			cursor: pointer;
+		}
+	</style>
+</head>
+
+<body>
+
+
+	<form action="index.php" method="post" enctype="multipart/form-data">
+		<input type="text" readonly>
+		<input id="browse" type="file" name="fileUpload" value="Browse" required> <br />
+		<br>
+		<input type="submit" value="Upload" id="button" /><br /> </div>
+	</form>
+
+</body>
+
+</html>
